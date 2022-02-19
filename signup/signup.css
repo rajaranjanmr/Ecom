@@ -1,0 +1,51 @@
+.container-form-button{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: space-around; */
+    margin-bottom:1rem;
+    gap:3rem;
+}
+.signup-btn-bottom{
+    width: 30%;
+    color:aliceblue;
+    cursor: pointer;
+    background-color: #082032;
+    border-radius:10px;
+    position: relative;
+    bottom:0rem;
+    left:2rem;
+}
+.cancel-btn-signup{
+width:30%;
+padding:1rem 2rem;
+background-color: #082032;
+color:aliceblue;
+cursor: pointer;
+border-radius:10px;
+position: relative;
+left:1rem;
+bottom:0rem;
+
+}
+.cancel-btn-signup:hover{
+    background-color: var(--primary-color);
+}
+.signup-btn:hover{
+    background-color:var(--primary-color)
+}
+.signup-btn {
+    background-color: #082032 ;
+    color: white ;
+    float:left;
+    padding: 14px 20px ;
+    margin: 8px 0 ;
+    border: none ;
+    cursor: pointer;
+    width:50%;
+    position: relative;
+    left:-13rem;
+    top:46rem;
+  }
+  .signup-btn-bottom:hover{
+      background-color: var(--primary-color);
+  }

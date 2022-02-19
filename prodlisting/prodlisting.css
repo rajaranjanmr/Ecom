@@ -12,11 +12,22 @@ body{
     font-family: arial;
     background-color: aliceblue;
   }
-  
+  body{
+    background-image: url('../updatedbg.jpeg');
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    }
   .price {
     color: grey;
     font-size: 22px;
   }
+  .card-btn-add{
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
   
   .card a {
     border: none;

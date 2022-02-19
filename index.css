@@ -20,13 +20,10 @@
     gap:4rem;
     justify-content: flex-end;
     
-    /* position: f; */
-    /* left:4rem; */
 }
 .navbar-items{
     padding-top:1.5rem; 
     padding-right:1.5rem;
-    /* padding:1.5rem; */
     
 
 }
@@ -45,37 +42,6 @@
     border-top:1px solid black;
 }
 
-/* cards */
-/* .middile-section{
-    position: absolute;
-    left:15rem;
-    top:15rem;
-    
-}
-.card-legend-ecom{
-    width: 25%;
-    background-color: red;
-    padding:1rem;
-    border-radius:5px;
-    overflow: hidden;
-
-}
-.image-ecom img{
-    width:100%;
-    height: 60%;
-}
-.badge-ecom{
-    width:35%;
-    height: auto;
-    background-color: rgb(191, 194, 5);
-    padding:0.7rem;
-    padding-left:1rem;
-    padding-right: 1rem;
-    text-align: center;
-    border-radius:5px;
-    position: absolute;
-    top: 1rem;
-} */
 .card {
     box-shadow:  0 0 10px 10px aliceblue;
     max-width: 300px;
@@ -109,10 +75,7 @@
     font-size: 18px;
     position: relative;
     font-weight: 800;
-    /* top:15rem;
-    left:10rem; */
     top:2rem;   
-
   }
   .card a{
       text-decoration:  none;
@@ -134,9 +97,8 @@
       flex-wrap: wrap-reverse;
         z-index:0;
       
-      position: absolute;
+     position: absolute;
     top:10rem;
-    /* left:10rem; */
 
   }
   .button-container{

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../clhome.css">
+    <link rel="stylesheet" href="../filter.css">
+
 </head>
 <body>
     <div class="container">
@@ -29,6 +31,63 @@
                     </ul>
                 </div>
             
+        </div>
+        <div class="filter-section">
+          <div class="filter-container">
+            <div class="filter-top-contain">
+                <div class="filter-top-header"><h3>Filters</h3></div>
+                <div class="clear-all"><a href="#">Clear all</a></div>
+            </div>
+            
+            <div class="filter-price-basis">
+                <div class="subheading-filter">Price :</div>
+                <div class="radios">
+                    <input type="radio" name="price" value="low">70-120
+                </div>
+                <div class="radios">
+                    <input type="radio" name="price" value="low">130-180
+                </div>
+                <div class="radios">
+                    <input type="radio" name="price" value="low">190-220
+                </div>
+                <div class="radios">
+                    <input type="radio" name="price" value="low">230-300
+    
+                </div>
+                
+                
+            </div>
+            <div class="filter-category-basis">
+                <div class="subheading-filter">Category :</div>
+                <div class="checkboxes">
+                    <input type="checkbox" id="veg" name="veg" value="veg">
+                <label for="veg">Vegeterian</label>
+                </div>
+                <div class="checkboxes">
+                    <input type="checkbox" id="nonveg" name="nonveg" value="nonveg">
+                    <label for="nonveg">Non-Veg</label>
+                </div>
+                <div class="checkboxes">
+                    <input type="checkbox" id="gravy" name="gravy" value="gravy">
+                    <label for="veg">Gravy</label>
+                    </div>
+    
+                
+                <div class="checkboxes">
+                    <input type="checkbox" id="dry" name="dry" value="dry">
+                    <label for="dry">Dry</label>
+                </div>
+                
+    
+            </div>
+            <div class="filter-rating-basis">
+                <div class="subheading-filter">Rating :</div>
+             <input type="range" min="1" max="5" value="2.5" class="slider">
+            </div>
+            <div class="button-filter">
+                <button type="reset">Apply</button>
+            </div>
+        </div>
         </div>
         
                 <div class="cards-section">

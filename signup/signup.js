@@ -1,4 +1,4 @@
-const idElSignup = document.querySelector("#id02");
+const idElSignup = document.querySelector("#idsignup");
 const signupBtnEl = document.querySelector(".signup-btn-ecom");
 const cancelBtnElSignup = document.querySelector("#cancel-btn-signup")
 const closeElSignup = document.querySelector("#close-signup");

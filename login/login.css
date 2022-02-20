@@ -1,3 +1,11 @@
+:root{
+  --modal-background-color:aliceblue;
+  --modal-cancel-button:rgba(255, 0, 0, 0.589);
+  --modal-login-color:white;
+  --modal-submit-background-color:#082032;
+  --modal-login-content-border:#888;
+}
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -5,13 +13,6 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-}
-:root{
-  --modal-background-color:aliceblue;
-  --modal-cancel-button:rgba(255, 0, 0, 0.589);
-  --modal-login-color:white;
-  --modal-submit-background-color:#082032;
-  --modal-login-content-border:#888;
 }
 
 /* Set a style for all buttons */

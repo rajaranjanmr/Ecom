@@ -30,6 +30,9 @@ left:1rem;
 bottom:0rem;
 
 }
+.fa-eyes{
+    color:black; position:relative;left:95%; top:-2.8rem;font-size:2rem;
+}
 .cancel-btn-signup:hover{
     background-color: var(--primary-color);
 }

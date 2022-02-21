@@ -27,7 +27,7 @@ This project is deployed on : netlify
 
 To acces :
 ```bash
-  npm run deploy
+   https://foodcartdev.netlify.app/
 ```
 
 

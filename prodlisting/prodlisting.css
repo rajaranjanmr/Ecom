@@ -47,7 +47,7 @@ body{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 11.2px;
-    padding-bottom: 0.8px;
+    padding-bottom: 0.5rem;
     color: var(--cart-card-white-color);
     background-color: var(--cart-card-background-color);
     text-align: center;

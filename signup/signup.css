@@ -1,0 +1,57 @@
+:root{
+    --signup-aliceblue-color:aliceblue;
+    --signup-btn-color:#082032;
+}
+.container-form-button{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:1rem;
+    gap:3rem;
+}
+.signup-btn-bottom{
+    width: 30%;
+    color:var(--signup-aliceblue-color);
+    cursor: pointer;
+    background-color: #082032;
+    border-radius:10px;
+    position: relative;
+    bottom:0rem;
+    left:2rem;
+}
+.cancel-btn-signup{
+width:30%;
+padding:1rem 2rem;
+background-color: var(--signup-btn-color);
+color:var(--signup-aliceblue-color);
+cursor: pointer;
+border-radius:10px;
+position: relative;
+left:1rem;
+bottom:0;
+
+}
+.fa-eyes{
+    color:black; position:relative;left:95%; top:-2.8rem;font-size:2rem;
+}
+.cancel-btn-signup:hover{
+    background-color: var(--primary-color);
+}
+.signup-btn:hover{
+    background-color:var(--primary-color)
+}
+.signup-btn {
+    background-color: var(--signup-btn-color) ;
+    color: var(--signup-aliceblue-color) ;
+    float:left;
+    padding: 14px 20px ;
+    margin: 8px 0 ;
+    border: none ;
+    cursor: pointer;
+    width:50%;
+    position: relative;
+    left:-13rem;
+    top:46rem;
+  }
+  .signup-btn-bottom:hover{
+      background-color: var(--primary-color);
+  }

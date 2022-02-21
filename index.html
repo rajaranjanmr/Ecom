@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodkart | homepage</title>
+    <link rel="stylesheet" href="component.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<style>
+    
+</style>
+
+</head>
+<body>
+<div class="container">
+    <div class="top-section">
+        <div class="container-logo">
+            <!--top flex-->
+            <div class="logo"><img src="images/logo.jpeg" alt="logot"> </div>
+        </div>
+        
+            <div class="navbar-items">
+                <ul class="navbar-item">
+                    <!--flex-->
+                    <li><a href="#">home</a></li>
+                    <li><a href="cart/cart.html">cart</a></li>
+                    <li><a href="wishlist/wishlist.html">wishlist</a></li>
+                    <li><a href="logout/logout.html">logout</a></li>
+                </ul>
+            </div>
+        
+    </div>
+            <div class="cards">
+
+            <div class="card">
+                <img src="images/biryaniimg.jpeg" alt="biryani" style="width:100%">
+                <h1>Biryanis</h1>
+                <p class="price">₹100* Onwards</p>
+                <p>Order from best resturants</p>
+                <p><a href="prodlisting/prodlisting.html">more</a></p>
+              </div>
+              <div class="card">
+                <img src="images/thalis.jpeg" alt="biryani" style="width:100%">
+                <h1>Thalis</h1>
+                <p class="price">₹100* Ownwards</p>
+                <p>Order from best resturants</p>
+                <p><a href="prodlisting/prodlisting.html">more</a></p>
+              </div>
+              <div class="card">
+                <img src="images/cakes.jpeg" alt="biryani" style="width:100%">
+                <h1>Cakes and Pastries</h1>
+                <p class="price">₹100* Onwards</p>
+                <p>Order from best resturants</p>
+                <p><a href="prodlisting/prodlisting.html">more</a></p>
+              </div>
+              <div class="card">
+                <img src="images/chinese.webp" alt="biryani" style="width:100%">
+                <h1>Chinese</h1>
+                <p class="price">₹100* Ownwards</p>
+                <p>Order from best resturants</p>
+                <p><a href="prodlisting/prodlisting.html">more</a></p>
+              </div>
+              </div>
+    </div>
+    
+</div>
+
+<div class="button-container">
+<button class="login-btn-ecom" >Login</button>
+<button class="signup-btn-ecom" >Signup</button>
+</div>
+    <div id="idlogin" class="login-container">
+      
+      <form class="login-content login-animate" action="" >
+        <div class="imgcontainer">
+          <span class="close" >&times;</span>
+          <img src="images/avatar-the-grinch-green-plant-recycling-symbol-food-transparent-png-1652162.png" alt="Avatar" class="avatar">
+        </div>
+    
+        <div class="container-form">
+          <label for="uname"><b>Email</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <i class="fa fa-eye" aria-hidden="true" style="color:black; position:relative;left:95%; top:-2.8rem;font-size:2rem;"></i>
+            
+          <button class="submit-btn">Login</button>
+          
+        </div>
+    
+        <div class="container-form">
+          <button  class="cancel-btn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+    
+
+    <div id="idsignup" class="login-container">
+      
+        <form class="login-content login-animate" action="" >
+          <div class="imgcontainer">
+            <span class="close" id="close-singup">&times;</span>
+            <img src="images/avatar-the-grinch-green-plant-recycling-symbol-food-transparent-png-1652162.png" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container-form">
+            <label for="uname"><b>Firstname</b></label>
+            <input type="text" placeholder="Enter Username" name="fname" required>
+
+            <label for="uname"><b>Lastname</b></label>
+            <input type="text" placeholder="Enter Username" name="lname" required>
+            <label for="uname"><b>Email</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <i class="fa fa-eye" aria-hidden="true" style=""></i>
+            
+          
+          </div>
+      
+          <div class="container-form-button">
+              <button class="signup-btn-bottom">Sign Up</button>
+            <button  class="cancel-btn-signup" id="cancel-btn-signup">Cancel</button>
+            
+            
+          </div>
+        </form>
+      </div>
+    
+</body>
+<script src="login/login.js"></script>
+<script src="signup/signup.js"></script>
+</html>

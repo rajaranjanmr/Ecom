@@ -18,7 +18,7 @@ Its a foodkart app which lets one order online food.
 
 ## Tech Stack
 
-**Client:** HTML5 ,VanilaJS ,CSS#
+**Client:** HTML5 ,VanilaJS ,CSS3
 
 
 ## Deployment
